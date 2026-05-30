@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Singleton/Singleton.vcxproj" />
+  <Project Path="Singleton/Singleton.vcxproj" Id="bf0102c9-ee90-48a8-9015-90bb7ca9bf29" />
 </Solution>

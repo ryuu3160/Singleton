@@ -12,6 +12,9 @@
     <Filter Include="test">
       <UniqueIdentifier>{0bd712b3-d321-4f0d-911b-cfc5af06250a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="nupkg">
+      <UniqueIdentifier>{100c8713-2df0-46ba-a967-483eac81b74c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Singleton.hpp">
@@ -25,5 +28,10 @@
     <ClCompile Include="test.cpp">
       <Filter>test</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Singleton.nupkg\Singleton.nuspec">
+      <Filter>nupkg</Filter>
+    </None>
   </ItemGroup>
 </Project>
