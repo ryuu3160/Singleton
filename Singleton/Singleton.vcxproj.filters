@@ -33,5 +33,8 @@
     <None Include="..\Singleton.nupkg\Singleton.nuspec">
       <Filter>nupkg</Filter>
     </None>
+    <None Include="..\Singleton.nupkg\build\native\rycp.Singleton.targets">
+      <Filter>nupkg</Filter>
+    </None>
   </ItemGroup>
 </Project>
